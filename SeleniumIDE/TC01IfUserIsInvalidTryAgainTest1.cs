@@ -32,6 +32,7 @@ public class TC01IfUserIsInvalidTryAgainTest
     [TearDown]
     protected void TearDown()
     {
+        driver.Dispose();
         driver.Quit();
     }
 
